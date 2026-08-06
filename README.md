@@ -35,13 +35,6 @@ Single-file web app (all HTML/CSS/JS in one file) backed by Firebase Firestore f
 - Firebase Auth (`firebase-auth-compat`)
 - Loaded via Firebase JS SDK v10.12.0 from CDN (`gstatic.com/firebasejs`)
 
-## Getting Started
-
-1. Clone the repo.
-2. Open `Jackson_College_IT_Asset_Manager_20.html` and drop in your Firebase project config (`§ Firebase Config` section near the top of the script).
-3. Open the file in a browser — no build/install step required. For production use, host it behind a proper web server (not `file://`) so Firebase auth and camera scanning work correctly.
-4. Set an admin password and configure staff/roles under **Settings → Staff & Roles**.
-
 ## Project Structure
 
 This is intentionally a single-file app. The script is organized into labeled sections (search for `§` to jump between them):
